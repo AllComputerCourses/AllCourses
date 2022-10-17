@@ -2,10 +2,9 @@
 
 ## What is Linear Algebra?
 -> Linear Algebra is the branch of Mathematics that deals with linear equations like these:
-<img src="http://www.sciweavers.org/tex2img.php?eq=%7B%5Cdisplaystyle%20a_%7B1%7Dx_%7B1%7D%2B%5Ccdots%20%2Ba_%7Bn%7Dx_%7Bn%7D%3Db%7D&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="{\displaystyle a_{1}x_{1}+\cdots +a_{n}x_{n}=b}" width="178" height="18" />
+<img src="https://bit.ly/3ezG7QS" align="center" border="0" alt="a_{1}x_{1}+\cdots +a_{n}x_{n}=b" width="178" height="18" />
 and linear maps like these:
-<img src="http://www.sciweavers.org/tex2img.php?eq=%7B%5Cdisplaystyle%20%28x_%7B1%7D%2C%5Cldots%20%2Cx_%7Bn%7D%29%5Cmapsto%20a_%7B1%7Dx_%7B1%7D%2B%5Ccdots%20%2Ba_%7Bn%7Dx_%7Bn%7D%7D&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="{\displaystyle (x_{1},\ldots ,x_{n})\mapsto a_{1}x_{1}+\cdots +a_{n}x_{n}}" width="262" height="18" />
-
+<img src="https://bit.ly/3TmQMgc" align="center" border="0" alt="x_{1},\ldots ,x_{n})\mapsto a_{1}x_{1}+\cdots +a_{n}x_{n}" width="256" height="18" />
 
 Linear algebra is central to almost all areas of mathematics. For instance, linear algebra is fundamental in modern presentations of geometry, including for defining basic objects such as lines, planes and rotations. Also, functional analysis, a branch of mathematical analysis, may be viewed as the application of linear algebra to spaces of functions.
 
@@ -39,6 +38,13 @@ import numpy as np
 x = np.array([1, 2, 3, 4]) # This is a 4-D row vector
 y = np.array([1], [2], [3], [4]) # This is a 4-D column vector
 ```
+From the above code:
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=x%20%3D%20%20%5Cbegin%7Bbmatrix%7D1%20%26%202%20%26%203%20%26%204%20%5Cend%7Bbmatrix%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="x =  \begin{bmatrix}1 & 2 & 3 & 4 \end{bmatrix} " width="136" height="24" />
+
+<img src="https://bit.ly/3TqiiJN" align="center" border="0" alt="y =  \begin{bmatrix}1 \\ 2 \\ 3 \\ 4 \end{bmatrix} " width="71" height="79" />
+
+
 We can also represent a vector using a python list:
 ```python
 vector = [1, 2, 3]
@@ -54,4 +60,9 @@ By convention vectors are column oriented but we can transform them to row orien
     It follows the same rules as Vector Addition.
 + Multiplication:
   
-  1. Dot Product: 
+  1. Dot Product:
+ 
+        <img src="https://bit.ly/3EN9CsP" align="center" border="0" alt=" \overrightarrow{a} .  \overrightarrow{b}  =  \Sigma  (a_{i} * b_{i} * \Cos( \theta ))" width="228" height="29" />
+        
+        It is a scalar quantity and has commutative and distributive properties.
+        
