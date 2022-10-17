@@ -6,4 +6,5 @@ Here we aim to provide notes for a few Computer Science courses like Machine Lea
 Hope you find what you are looking for and if you don't submit a request in issues.
 
 ## Contents:
-+ ![Android Development](https://github.com/AllComputerCourses/AllCourses/blob/main/Android/ReadMe.md)
++ [Linear Algebra](https://github.com/AllComputerCourses/AllCourses/blob/Srijan/Linear%20Algebra/linear_algebra.md)
++ [Android Development](https://github.com/AllComputerCourses/AllCourses/blob/main/Android/ReadMe.md)
