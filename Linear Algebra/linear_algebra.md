@@ -55,9 +55,13 @@ By convention vectors are column oriented but we can transform them to row orien
 
 ### Vector Arithmetic:
 + Addition: 
+
     It is just plain old addition. We can add two vectors if and only if they are in same dimensions otherwise it leads to error.
+    
 + Subtraction:
+
     It follows the same rules as Vector Addition.
+    
 + Multiplication:
   
   1. Dot Product:
@@ -66,3 +70,55 @@ By convention vectors are column oriented but we can transform them to row orien
         
         It is a scalar quantity and has commutative and distributive properties.
         
+        Calculating dot product using numpy:
+        ```python
+        import numpy as np
+        a = np.array([20, 30, 40])
+        b = np.array([24, 35, 44])
+        print(np.dot(a, b))
+        ```
+        
+  2. Cross Product:        
+        
+        
+        It is a vector quantity and can be calculated only if the vector is 3-D or 2-D.
+        
+        Calculating cross product using numpy:
+        
+        ```python
+        import numpy as np
+        a = np.array([20, 30, 40])
+        b = np.array([24, 35, 44])
+        print(np.dot(a, b))
+        ```
+        
+### Scalar and Vector Projection:
+   1. Magnitude of a Vector:
+   
+        -- It is the distance from tail to the head of the vector.
+        
+        -- It is indicated using || x ||
+        
+        -- Formula:
+        
+   2. Vector Projection:
+   
+        -- A vector projection of a vector a onto another vector b is the orthogonal projection of a onto b.
+        
+        -- Formula:
+        
+   3. Changing the basis of the vector:
+   
+       Properties:
+       
+         -- The new basis vectors should be linearly independent of each other.
+           
+         -- They should span the whole vector space.
+            
+         -- They aren't necessarily unique.
+            
+         -- Formula:
+            
+   4. Spanning Sets:
+                 
+         The set <insert> is a spanning set for v if and only if every vector in v can be written as a linear combination of <insert>
